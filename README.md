@@ -21,3 +21,4 @@ La aplicación ofrece las siguientes visualizaciones interactivas:
     - `Construir gráfico de pastel`: Muestra un gráfico de pastel de los colores de pintura más populares.
     - `Construir mapa de calor`: Muestra un mapa de calor de anuncios por tipo y fecha de publicación.
 3. Cada visualización se cargará después de que selecciones la casilla correspondiente.
+4. La aplicacion puede visualizarse a traves del enlace https://proyecto-5-bumo.onrender.com
