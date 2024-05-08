@@ -10,11 +10,11 @@ st.header('Graficos sobre los autos anunciados')
 
 st.write('elige el tipo de grafico que deseas visualizar')
 
-hist_checkbox = st.checkbox('Construir histograma') # crear un botón
+hist_checkbox = st.checkbox('Construir grafico de barras') # crear un botón
         
 if hist_checkbox: # al hacer clic en el botón
         
-    fig = px.histogram(car_data, x="type", color='transmission', title='tipos de transmision') 
+    fig = px.histogram(car_data, x="type", color='transmission', title='Tipos de transmision') 
           # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
 
